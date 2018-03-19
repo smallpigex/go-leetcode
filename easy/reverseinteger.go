@@ -6,7 +6,7 @@ func main() {
 
 func reverse(x int) int {
 
-	total := 0
+	var total int = 0
 	count := false
 
 	for x != 0 {
